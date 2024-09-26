@@ -1,0 +1,33 @@
+name: pytorch-env
+
+channels:
+  - pytorch
+  - nvidia
+  - conda-forge
+  - defaults
+
+dependencies:
+  - accelerate
+  - datasets
+  - gh
+  - git
+  - ipywidgets
+  - jupyter-ai
+  - jupyterlab
+  - jupyterlab-git
+  - jupyterlab-nvdashboard
+  - jupyterlab-lsp
+  - pip
+  - pip:
+    - -r requirements.txt
+  - pyarrow
+  - python
+  - python-dotenv
+  - python-language-server
+  - pytorch
+  - pytorch-lightning
+  - tensorboard
+  - torchmetrics
+  - transformers
+  - wandb
+  
